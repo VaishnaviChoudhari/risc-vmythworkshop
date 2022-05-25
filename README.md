@@ -140,4 +140,38 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
 <img src="https://user-images.githubusercontent.com/68154219/170330641-a25913ac-e8f0-4982-b5cc-7f381b867be3.png">
 </p>
 
+### Detailed Description of Course Content
+Types of Instructions
+1. Pseudo Instructions like mv(move), li(load immediate). These are simple assembly language instructions that do not have a direct machine language equivalent. During assembly, the assembler translates each psedudo- instruction into one or more machine language instructions.
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170338802-c585f039-6ecf-4b76-af11-6ec740e2aba0.png">
+</p>
 
+2. Base Integer Instructions (RV64I) applicable exclusively on Integers where RV stands for RISC V, 64 stands for 64 bit integer
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170339717-bee86c0f-d297-4cea-80f2-88460a9fb6ba.png">
+</p>
+
+3. Multiply extension (RV64M) implements multiplication and division operation.
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170341127-d2f324db-5455-4caf-bb8e-799bc231d77a.png">
+</p>
+
+4. Single and Double Floating point extension (RV64F & RV64D) applied to single and double point integers
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170342294-36498b04-9247-4c53-a5fe-64ff4f510c80.png">
+</p>
+
+5. Application Binary Interface (ABI) are the keywords which enables the application programmers to access the registers of the processor. Every keyword corresponds to RISC V  ISA
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170344472-44c443d6-2ba6-48bc-aa93-ca5d07e4b384.png">
+</p>
+
+6. Memory Allocation and Stack Pointer 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170345225-a2b41849-fc37-4316-852a-fb83ccfcb106.png">
+</p>
+
+
+
+ 
