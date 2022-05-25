@@ -75,10 +75,10 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
     * [Lab To Decode Individual Instruction](#Lab-To-Decode-Individual-Instruction)
   * [RISC-V control logic](#RISC-V-control-logic)
     * [Lab For Register File Read Part1 (USE UPDATED SHELL CODE) ](#Lab-For-Register-File-Read-Part1-(USE-UPDATED-SHELL-CODE)  
-    * [Lab For Register File Read Part-2 ](#Lab-For-Register-File-Read Part-2)
-    * [Lab For ALU Operations For add/addi ](#Lab-For-ALU-Operations-For-add/addi)
+    * [Lab For Register File Read Part-2 ](#Lab-For-Register-File-Read-Part-2)
+    * [Lab For ALU Operations For add/addi ](#Lab-For-ALU-Operations-For-add-addi)
     * [Lab For Register File Write](#Lab-For-Register-File-Write)
-    * [Concept of Array And Register File Details](# Concept-of-Array-And-Register-File-Details)
+    * [Concept of Array And Register File Details](#Concept-of-Array-And-Register-File-Details)
     * [Lab For Implementing Branch Instructions ](#Lab-For-Implementing-Branch-Instructions)
     * [Lab For Completing Branch Instruction Implementation](#Lab-For-Completing-Branch-Instruction-Implementation)
 ***
