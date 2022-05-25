@@ -190,13 +190,20 @@ When we pass a number it is very important to understand the conversion process 
 
 ![image](https://user-images.githubusercontent.com/68154219/170351882-3d423453-9b23-4967-8a91-b1514e4b96f5.png)
 
-where n is the number of bits. Since the integer is of 64 bits,
+ where n is the number of bits. Since the integer is of 64 bits,
 
 ![image](https://user-images.githubusercontent.com/68154219/170351758-5bc18604-fe98-4bae-b134-29df78da7003.png)
 
-which ranges from 0 to ![image](https://user-images.githubusercontent.com/68154219/170352295-93b34cc9-2a2e-4140-8344-2fbd4320ba5e.png)
+ which ranges from 0 to ![image](https://user-images.githubusercontent.com/68154219/170352295-93b34cc9-2a2e-4140-8344-2fbd4320ba5e.png)
 
-i.e, for 64 bits, range is 0 to ![image](https://user-images.githubusercontent.com/68154219/170352412-1701f152-2899-4bcf-81dd-d0038307033e.png)
+ i.e, for 64 bits, range is 0 to ![image](https://user-images.githubusercontent.com/68154219/170352412-1701f152-2899-4bcf-81dd-d0038307033e.png)
+
+ Maximum and Minimum values for 64 bit unsigned integers are
+ 
+ <p align="center" width="100%">
+ <img src="https://user-images.githubusercontent.com/68154219/170353357-ff033ae1-1aaa-404a-b1dc-0b3907e7da66.png">
+ </p>
+
 
 
 
