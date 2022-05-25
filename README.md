@@ -198,14 +198,11 @@ When we pass a number it is very important to understand the conversion process 
 
  i.e, for 64 bits, range is 0 to ![image](https://user-images.githubusercontent.com/68154219/170352412-1701f152-2899-4bcf-81dd-d0038307033e.png)
 
- Maximum and Minimum values for 64 bit unsigned integers are
+ Maximum and Minimum values for 64 bit unsigned integers are shown as below where all 1's represent maximum and all 0's represent minimum 64 bit integer in binary form.
  
  <p align="center" width="100%">
  <img src="https://user-images.githubusercontent.com/68154219/170353357-ff033ae1-1aaa-404a-b1dc-0b3907e7da66.png">
  </p>
-
-
-
 
 ### 64-bit Number System For Signed Numbers
 
