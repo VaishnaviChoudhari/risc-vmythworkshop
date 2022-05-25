@@ -102,6 +102,25 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
     * [Wrap Up](#Wrap-Up)
  ***
     
- # Day 1: Introduction to Verilog RTL Design and Synthesis
+ # Day 1: Introduction to RISC-V ISA and GNU compiler toolchain
  ***
- ## Introduction to open-source simulator iverilog
+ ## Introduction to RISC-V basic keywords
+ #### RISC V Instruction Set Architechture (ISA)
+ * An Instruction Set Architecture or ISA is an abstract model of a computer architecture, defining such things as the register model and machine code instructions.
+ * A realization of an ISA, such as a Central Processing Unit (CPU), is called an implementation. Widely used ISAs include x86 and ARM.
+ * ISAs are intellectual property that is licensed. So, for example, a manufacturer like Freescale or Broadcom that wishes to design an ARM-compatible processor needs to license it from Arm Ltd., the owners of the ISA.
+ * RISC-V pronounced "risk-five," RISC-V is an ISA based on reduced instruction set computer (RISC) principles. Unlike most other ISA designs, it is provided under a open source license that does not require fees to use.
+ * RISC-V is significant because it will allow smaller device manufacturers to build hardware without paying royalties and allow developers and researchers to design and experiment with a proven and freely available instruction set architecture. This will encourage innovation and competition 
+ 
+ ### Introduction
+ * If a C program is to be run on a computer or hardware which has a particular layout (Layout is the interior of the chip present in the pc). The C program information needs to be pass to the computer in a certain flow. 
+ * The C program is first compiled in the assembly program which is nothing but RISC V program. It is then converted into machine level language program(binary level language program). This bits are finally executed in the layout
+ * An another interface is required between RISC V architecture and layout which is Hardware Description Language. RISC V Architecture is implemented in RTL code which is then implemented into layout.
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170322870-1a7b491a-695d-4390-8374-186c6777cff3.png">
+</p>
+
+
+
+
