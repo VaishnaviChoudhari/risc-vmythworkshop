@@ -113,7 +113,7 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
  * RISC-V is significant because it will allow smaller device manufacturers to build hardware without paying royalties and allow developers and researchers to design and experiment with a proven and freely available instruction set architecture. This will encourage innovation and competition 
  
  ### Introduction
- * If a C program is to be run on a computer or hardware which has a particular layout (Layout is the interior of the chip present in the pc). The C program information needs to be pass to the computer in a certain flow. 
+ * If a C program is to be run on a computer or hardware which has a particular layout (Layout is the interior of the chip present in the pc). The program information needs to be pass to the computer in a certain flow. 
  * The C program is first compiled in the assembly program which is nothing but RISC V program. It is then converted into machine level language program(binary level language program). This bits are finally executed in the layout
  * An another interface is required between RISC V architecture and layout which is Hardware Description Language. RISC V Architecture is implemented in RTL code which is then implemented into layout.
 
@@ -121,6 +121,18 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
 <img src="https://user-images.githubusercontent.com/68154219/170322870-1a7b491a-695d-4390-8374-186c6777cff3.png">
 </p>
 
+### From Apps to Hardware
+* Application Softwares(Apps) that runs on PC (Hardware) through a block called system software which converts application program into binary language.
+* There are various layers of system software and major components are Operating System(OS), Compiler and the Assembler.
+* OS handles input output operations, memory allocation and low level system functions. 
+* The operating system has small functions in C, C++, java language which is converted into intructions by compiler.
+* The syntax of the instructions depends on what type of hardware is. If hardware belongs to Intel x86 then the instructions will be in x86 file format which is .exe file.
+* The Assembler converts these instructions into binary numbers (machine level program). This is fed to the hardware and accordingly it generates the output. 
 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170328788-cbfca27f-25e9-486e-9bb7-fd9b6745080b.png">
+</p>
+
+![image](https://user-images.githubusercontent.com/68154219/170328788-cbfca27f-25e9-486e-9bb7-fd9b6745080b.png)
 
 
