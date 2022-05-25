@@ -133,6 +133,11 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
 <img src="https://user-images.githubusercontent.com/68154219/170328788-cbfca27f-25e9-486e-9bb7-fd9b6745080b.png">
 </p>
 
-![image](https://user-images.githubusercontent.com/68154219/170328788-cbfca27f-25e9-486e-9bb7-fd9b6745080b.png)
+* The instruction set acts as an abstract interface between C language and the hardware which is called as instruction set architecture of the 'architecture' of the computer.
+* The RTL code is needed which understands the instructions like add. It is converted to synthesized netlist(gate level) and finally physical design implementation (layout) of the netlist is done.
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170330641-a25913ac-e8f0-4982-b5cc-7f381b867be3.png">
+</p>
 
 
