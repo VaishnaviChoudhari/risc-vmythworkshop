@@ -175,8 +175,47 @@ Types of Instructions
 ## Labwork for RISC-V software toolchain
 
 ### C Program to compute sum from 1 to N
+On Terminal, 
+* Open file sum1ton.c and write C program to calculate sum of numbers from 1 to n = 5
+* Compile the code using gcc command
+* print output on terminal using ./a.out command
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170538536-e9d8075d-aecf-4bba-bd92-6057f353bfd0.png">
+</p>
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170538907-5905d963-8bf7-4a11-9ceb-fc4da3d7dfc0.png">
+</p>
 
 ### RISCV GCC compile and Disassemble
+
+* Using 'cat' command view the contents of sum1ton.c file
+* In 'riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64 -o sum1ton.o sum1ton.c', we compile the code in riscv compiler where
+  * mabi stands for ABI which is lp64 (long pointer 64 bits)
+  * march stands for architecture which is rv64 (riscv 64)
+  * 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170545471-677c29bb-897b-4749-a577-e6b9c125ed12.png">
+</p>
+ 
+ * Using following commands goto main assembly code
+   * riscv64-unknown-elf-objdump -d sum1ton.o 
+   * riscv64-unknown-elf-objdump -d sum1ton.o | less
+   * /main and press n
+
+Starting address = 10184
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170549289-8dcf18f7-c67f-430f-9ea0-00cdd7684117.png">
+</p>
+ 
+* Using -Ofast instead of -O1 we get,
+
+Starting address = 100b0
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170549820-01493107-cddf-4176-b529-d593a4e9fd29.png">
+</p>
+
 
 ### Spike Simulation and Debug
 
@@ -188,23 +227,39 @@ When we pass a number it is very important to understand the conversion process 
 <img src="https://user-images.githubusercontent.com/68154219/170350763-6a3304be-fa01-4f2a-acb3-237927578e1c.png">
 </p>
 
-![image](https://user-images.githubusercontent.com/68154219/170351882-3d423453-9b23-4967-8a91-b1514e4b96f5.png)
+* ![image](https://user-images.githubusercontent.com/68154219/170351882-3d423453-9b23-4967-8a91-b1514e4b96f5.png)
 
  where n is the number of bits. Since the integer is of 64 bits,
 
-![image](https://user-images.githubusercontent.com/68154219/170351758-5bc18604-fe98-4bae-b134-29df78da7003.png)
+* ![image](https://user-images.githubusercontent.com/68154219/170351758-5bc18604-fe98-4bae-b134-29df78da7003.png)
 
  which ranges from 0 to ![image](https://user-images.githubusercontent.com/68154219/170352295-93b34cc9-2a2e-4140-8344-2fbd4320ba5e.png)
 
  i.e, for 64 bits, range is 0 to ![image](https://user-images.githubusercontent.com/68154219/170352412-1701f152-2899-4bcf-81dd-d0038307033e.png)
 
- Maximum and Minimum values for 64 bit unsigned integers are shown as below where all 1's represent maximum and all 0's represent minimum 64 bit integer in binary form.
+ * Maximum and Minimum values for 64 bit unsigned integers are shown as below where all 1's represent maximum and all 0's represent minimum 64 bit integer in binary form.
  
  <p align="center" width="100%">
  <img src="https://user-images.githubusercontent.com/68154219/170353357-ff033ae1-1aaa-404a-b1dc-0b3907e7da66.png">
  </p>
 
 ### 64-bit Number System For Signed Numbers
+* Signed Numbers, i.e, negative numbers are represented in binary form using 2's complement method.
+* In 2's complement method, the number is first represented in binary form
+* The binary number is inverted such that all 0's are replaced by 1's and vice versa (1's complement)
+* Add 1 to the inverted binary number to get 2's complement
+* **POSITIVE NUMBERS HAS MSB '0' AND NEGATIVE NUMBERS HAS MSB '1'
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170526180-c0701299-9062-4ab6-9cd9-08e79506ee18.png">
+</p>
+
+* Range of Signed Positive Numbers is '0' to ' ![image](https://user-images.githubusercontent.com/68154219/170526968-f1b5f9ed-2b91-43e4-a71b-afb16cf54297.png) ' where n is no. of bits which is 64 bits
+
+* Range of Signed Negative Numbers is '-1' to ' ![image](https://user-images.githubusercontent.com/68154219/170528164-a960eb9f-ad61-448d-8122-c21f4af368eb.png) ' where n is no. of bits which is 64 bits
+
+
+
 
 ### Lab for Signed and Unsigned Numbers
 
