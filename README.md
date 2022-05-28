@@ -216,8 +216,9 @@ Starting address = 100b0
 <img src="https://user-images.githubusercontent.com/68154219/170549820-01493107-cddf-4176-b529-d593a4e9fd29.png">
 </p>
 
-
 ### Spike Simulation and Debug
+
+
 
 ## Integer number representation
 When we pass a number it is very important to understand the conversion process from decimal to binary.
