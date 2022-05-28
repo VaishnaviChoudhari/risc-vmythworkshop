@@ -39,7 +39,6 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
 ***
 * [Day 3: Digital Logic with TL-Verilog and Makerchip](#Day-3-Digital-Logic-with-TL-Verilog-and-Makerchip)
   * [Combinational Logic with TL-Verilog and Makerchip](#Combinational-Logic-with-TL-Verilog-and-Makerchip)
-    * [Welcome](#Welcome) 
     * [Introduction to Logic Gates](#Introduction-to-Logic-Gates)
     * [Basic Mux Implementation And Introduction To Makerchip](#Basic-Mux-Implementation-And-Introduction-To-Makerchip)
     * [Labs for Combinational Logic](#Labs-for-Combinational-Logic)
@@ -461,6 +460,18 @@ On terminal,
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170839816-f7be93e5-b2f7-46c0-8bf1-bad2b6c10a8e.png">
 </p>
+
+# Day 3: Digital Logic with TL-Verilog and Makerchip
+***
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840097-d5f5cb94-2f7f-45e4-b72a-a07397c92add.png">
+</p>
+
+* [TL-Verilog](https://arxiv.org/abs/1811.01780#:~:text=Transaction%2DLevel%20Verilog%20(TL%2D,%2C%20called%20transaction%2Dlevel%20design.) 
+Transaction-Level Verilog (TL-Verilog) is an emerging extension to SystemVerilog that supports a new design methodology, called transaction-level design. A transaction, in this methodology, is an entity that moves through structures like pipelines, arbiters, and queues, A transaction might be a machine instruction, a flit of a packet, or a memory read/write. Transaction logic, like packet header decode or instruction execution, that operates on the transaction can be placed anywhere along the transaction's flow. Tools produce the logic to carry signals through their flows to stitch the transaction logic.
+
+## Combinational Logic with TL-Verilog and Makerchip
+### Introduction to Logic Gates
 
 
 
