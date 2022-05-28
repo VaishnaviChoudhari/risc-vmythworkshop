@@ -417,3 +417,11 @@ On terminal open leafpad
 
 ![image](https://user-images.githubusercontent.com/68154219/170831473-f21d1b0b-3619-4e0e-8a40-926f52e16a66.png)
 
+### Simulate New C Program With Function Call
+Int this section we will simulate the program with spike command for RISC V simulation
+
+![image](https://user-images.githubusercontent.com/68154219/170832645-50953dca-3622-4ded-b82f-4061f5005fbf.png)
+
+![image](https://user-images.githubusercontent.com/68154219/170832690-810775ab-ca1f-466d-8514-5f4c6f5219d5.png)
+
+### Lab To Run C-Program On RISC-V CPU
