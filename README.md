@@ -274,38 +274,61 @@ When we pass a number it is very important to understand the conversion process 
 
 * Range of Signed Negative Numbers is '-1' to ' ![image](https://user-images.githubusercontent.com/68154219/170528164-a960eb9f-ad61-448d-8122-c21f4af368eb.png) ' where n is no. of bits which is 64 bits
 
-
-
-
 ### Lab for Signed and Unsigned Numbers
-
-* Lab to find Highest unsigned integer input value
+* **Lab to find Highest unsigned integer input value**
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/68154219/170817112-3dca96a6-3b97-4fa1-a27f-efb1d20a1bd0.png">
+<img src="https://user-images.githubusercontent.com/68154219/170817817-dda818c0-c08b-4680-a29d-9b4dc340d0d2.png">
 </p>
 
-<p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/68154219/170817153-da2037b3-7dc3-42f9-8f01-9e0e81cba904.png">
-</p>
-
-* For unsigned long long datatype with input value greater than 64
+* **For unsigned long long datatype with input value greater than 64**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170817283-ece27286-cdf9-49c2-8b2f-e39245cc4c53.png">
 </p>
-  * Since unsigned long long dataytpe has max size of 64 bits, Highest size of output remains same even if the input value is greater than 64 bits
 
-* For unsigned long long datatype with input value less than 64
+Since unsigned long long dataytpe has max size of 64 bits, Highest size of output remains same even if the input value is greater than 64 bits
+
+* **For unsigned long long datatype with input value less than 64**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170817568-87321d45-3d6e-49db-a80b-715a0c51148a.png">
 </p>
 
-* For unsigned long long datatype with negative input value 
+* **For unsigned long long datatype with negative input value** 
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170817646-95ac26c7-a683-4b24-a171-2e6b2f2ef972.png">
 </p>
 
-* Highest and lowest value for signed long long integer input value
+* **Highest and lowest value for signed long long integer input value**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170817696-bbafdf40-5821-4065-8ddf-b987afae06fd.png">
 </p>
  
+ 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817899-3298107d-cfd4-46d1-9ae4-234c00e82f5d.png">
+</p>
+
+ # Day 2: Introduction to ABI and basic verification flow
+ ***
+ ## Application Binary Interface
+ ### Introduction to Application Binary Interface
+ 
+ In RISC V program, the ABI are as shown in the snippet below
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170822448-8b4dfbd7-578a-4491-9ed6-8943772a1bdb.png">
+</p>
+
+
+ * For users, the interface is the appearance and functionality of the application
+ * The interface in the applicagtion program uses a lot of standard libraries such as stdio.h, etc. in C, std:array, etc. in C++  which are called as Application program interface
+ * The next lower layer is the Operating system. The Application program can access the operating system via standard libraries and the interface.
+ * Similarly, the operating system can access the machine level program via ISA interface which can be RISC V or ARM or any other architechture
+ * This architechture is implemented on the hardware using RTL interface
+ * Some parts of the ISA are available to the user called as USER ISA while some parts of the ISA are available for operating system called as USER & SYSTEM ISA
+ * The application can access the registers (Hardware resources) of the architechture via system calls and this particular interface is called as **Application Binary Interface (ABI)**
+ * **64 bits(XLEN) RISC V has 32 registers**
+ <p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170823132-a929ca44-09be-48f3-a3c7-d1d81aa81bf6.png">
+</p>
+
+
+
