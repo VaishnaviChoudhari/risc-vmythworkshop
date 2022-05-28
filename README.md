@@ -332,23 +332,29 @@ Since unsigned long long dataytpe has max size of 64 bits, Highest size of outpu
 
 ### Memory Allocation for Double Words
 
-* RISC V belongs to 'Little Endian'memory addressing system. LSB stored at 0th location of the register.
+* RISC V belongs to 'Little Endian'memory addressing system. LSB of data stored at 0th location of the register.
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170824092-2819ae17-35b9-4a88-975a-71b1c067b5bc.png">
 </p>
 
+There are two ways of loading data into register
+* First method is to load data directly into 64 bit register 
+* Second method is loading data into register through the memory 
+* Loading through memory has 1 byte of address at each memory location
+* If Address of 1st doubleword is m[0] then address of 2nd doubleword is m[8], 3rd doubleowrd is m[16] and so on.
+
+### Load, Add And Store Instructions With Example
+
 For Example,
 * Assume that the array M is of 3 double word (data to be stored)
 * We want to store the content in a particular register, let's say register x8.
-* If we want to access the data from register x8, we need the first memmory address of the register.
-* x23 will store the base address of array M. and the pointer is incremented by 16 everytime to access next data stored.
+* If we want to access the data from register x8 through memory, we need the first memmory address of the register.
+* x23 will store the base address of array M. and the pointer is incremented by 16 from base address(offset as shown in the snippet, memory address starts from 16 to 23).
 * **load double word (ld)** is the command to load the data into the register x8.
 
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170823620-da269916-9bb2-4d71-a535-26660aab50d7.png">
 </p>
-
-### Load, Add And Store Instructions With Example
 
  **All the instructions in RISC V are of 32 bits.**
 * opcode - first 7 bits are used to store commands 
@@ -357,5 +363,20 @@ For Example,
 * rd- 5 bits used to store destination register
 * immediate - offset from base address of the register
 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170825328-54a08a21-2095-4709-b160-4d2e3ea74379.png">
+</p>
 
+* To store the data back into memory, **store double word sd** command is used.
+* Then for example, x8 is the data register and x23 is the source register with offset 8 ( in snippet the memory address starts from 8 to 15)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170825689-bdb1b858-ef29-47a0-a837-1c8a48ea0f8c.png">
+</p>
 
+The instruction set for addition and storing data back to memory is as shown in the snippet below
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170825850-6a7b8c44-005f-4d76-ac31-e532b4aa09cb.png">
+</p>
+
+* There are two source register for add command 
+* There is no destination register for sd command but there are two registers as source and data.
