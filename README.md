@@ -190,7 +190,8 @@ On Terminal,
 
 ### RISCV GCC compile and Disassemble
 
-* Using 'cat' command view the contents of sum1ton.c file
+* Previously, we compiled using normal compiler, now we will compile using RISC V compiler
+*  Using 'cat' command view the contents of sum1ton.c file
 * In 'riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64 -o sum1ton.o sum1ton.c', we compile the code in riscv compiler where
   * mabi stands for ABI which is lp64 (long pointer 64 bits)
   * march stands for architecture which is rv64 (riscv 64)
@@ -217,6 +218,20 @@ Starting address = 100b0
 </p>
 
 ### Spike Simulation and Debug
+* In this session, we will learn about debugging the program using spike -d pk sum1ton.o command where -d stands for debug
+* go to program counter location at 100b0 (starting address of main.c)
+* we can view the value stored in the reg using 'reg 0 reg_name' command
+* Press enter to view reg value of next step
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170813960-a1a9761c-a385-48f5-8fb2-8121808ad4f4.png">
+</p>
+
+* addi is add immediate instruction
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170813991-636199a7-aafe-4971-8010-8d90c46372e0.png">
+</p>
+
 
 
 
