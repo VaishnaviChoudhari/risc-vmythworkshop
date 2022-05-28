@@ -476,6 +476,153 @@ It is a platform that provides provides free and instant access to the latest to
 ## Combinational Logic with TL-Verilog and Makerchip
 ### Introduction to Logic Gates
 
+* Basic Logic Gates are:
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840593-5e31e005-dd44-4455-a6df-84f955235d09.png">
+</p>
+
+* Combinational Circuit for example, Full Adder
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840690-30eef614-a670-44e2-808b-ff7f3a7ecc0f.png">
+</p>
+
+Multiple Bits addition using sequence of Full Adders
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840805-a06d51a1-742e-4674-8d39-2d776af84d8a.png">
+</p>
+
+* Boolean Equations of Logic Gates
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840856-7214ecd7-5f94-47dd-bc4f-fc3de84f782a.png">
+</p>
+
+### Basic Mux Implementation And Introduction To Makerchip
+
+The basic builing block of digital circuit is Multiplexer(MUX)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170840934-1be1be57-84f4-4ee5-8a35-46a1bf0ab161.png">
+</p>
+
+* **Chaining Ternary Operator**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170841024-f600c940-0228-4700-9ae8-ded8d6ccdb19.png">
+</p>
+
+### Labs For Combinational Logic
+
+Open Pythagorean example from Tutorial
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170841452-b2800511-8836-42cb-8184-fc999c29d107.png">
+</p>
+
+**A. Inverter** 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170841651-a265df72-02fb-4b56-93d6-29003532f6fa.png">
+</p>
+
+**B. 2 Input AND gate**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170841711-e08a0d5f-f983-4e9d-bc29-93e253a30364.png">
+</p>
+
+**C. Arithmetic operators on vectors as binary numbers
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170841789-458c1892-3e59-49c3-8ff8-205c14bff58b.png">
+</p>
+
+**D. MUX**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842066-7d953eb1-836f-4425-81b9-26e5f3f599dc.png">
+</p>
+
+**E. MUX as Vector**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842028-af722b1a-041a-4993-8ec9-2b226000590b.png">
+</p>
+
+**D. Combinational Calculator**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842548-6c41c075-c8ea-405e-88cb-9c305f4bd52a.png">
+</p>
+
+## Sequential Logic
+### Introduction To Sequential Logic And Counter Lab
+* The whole sequential circuit can be viewed as a big state machine
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842751-c58ffb0d-0c11-4f36-bb3f-c1218f8ba9db.png">
+</p>
+
+* **Sequential Logic - Fibonacci Series**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842839-e8de66a4-70dd-4763-b70e-e5b2abae0c15.png">
+</p>
+
+* **Fibonacci Series - Reset**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170842984-032dc0d4-7337-4678-bc17-3a38f27b0d71.png">
+</p>
+
+* **Free Running counter**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170843343-a926d3fa-fb38-493e-ae7c-837ed0124b70.png">
+</p>
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170843310-6b443cab-a028-406f-95dd-c716f2b3edee.png">
+</p>
+
+* **Fibonacci Series**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170843434-87f215e7-873f-4336-a075-5ce21edf2acd.png">
+</p>
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170843425-c5a35c4c-a755-4f3b-8078-537321fb63b3.png">
+</p>
+
+### Sequential Calculator Lab
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170844256-0be20bb6-59ec-4567-bf84-b89f728bcc67.png">
+</p>
+
+## Pipelined Logic 
+### Pipelined Logic And Re-Timing
+
+* **Compute Pythagoras Theorem on hardware
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170844353-e7afc255-eb88-441c-ae26-a4699a085388.png">
+</p>
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170844382-06acccb3-9a80-45b5-aaea-f82038d4553b.png">
+</p>
+
+* **TL-Verilog vs System Verilog
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170844460-05055a6c-4bf3-4959-82cb-333e0dc35771.png">
+</p>
+
+* **Retiming - Easy and Safe**
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170844553-327d637d-59c8-46de-a1d5-e9bb4246c92e.png">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
