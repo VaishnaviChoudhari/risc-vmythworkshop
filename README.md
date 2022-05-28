@@ -470,6 +470,9 @@ On terminal,
 * [TL-Verilog](https://arxiv.org/abs/1811.01780) 
 Transaction-Level Verilog (TL-Verilog) is an emerging extension to SystemVerilog that supports a new design methodology, called transaction-level design. A transaction, in this methodology, is an entity that moves through structures like pipelines, arbiters, and queues, A transaction might be a machine instruction, a flit of a packet, or a memory read/write. Transaction logic, like packet header decode or instruction execution, that operates on the transaction can be placed anywhere along the transaction's flow. Tools produce the logic to carry signals through their flows to stitch the transaction logic.
 
+* [Makerchip IDE](http://makerchip.com/)
+It is a platform that provides provides free and instant access to the latest tools directly from your browser and from your desktop. This includes open-source tools and proprietary ones
+
 ## Combinational Logic with TL-Verilog and Makerchip
 ### Introduction to Logic Gates
 
