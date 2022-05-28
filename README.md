@@ -279,4 +279,33 @@ When we pass a number it is very important to understand the conversion process 
 
 ### Lab for Signed and Unsigned Numbers
 
+* Lab to find Highest unsigned integer input value
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817112-3dca96a6-3b97-4fa1-a27f-efb1d20a1bd0.png">
+</p>
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817153-da2037b3-7dc3-42f9-8f01-9e0e81cba904.png">
+</p>
+
+* For unsigned long long datatype with input value greater than 64
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817283-ece27286-cdf9-49c2-8b2f-e39245cc4c53.png">
+</p>
+  * Since unsigned long long dataytpe has max size of 64 bits, Highest size of output remains same even if the input value is greater than 64 bits
+
+* For unsigned long long datatype with input value less than 64
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817568-87321d45-3d6e-49db-a80b-715a0c51148a.png">
+</p>
+
+* For unsigned long long datatype with negative input value 
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817646-95ac26c7-a683-4b24-a171-2e6b2f2ef972.png">
+</p>
+
+* Highest and lowest value for signed long long integer input value
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170817696-bbafdf40-5821-4065-8ddf-b987afae06fd.png">
+</p>
  
