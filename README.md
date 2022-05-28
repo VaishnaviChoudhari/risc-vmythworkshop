@@ -392,4 +392,27 @@ The instruction set for addition and storing data back to memory is as shown in 
 <img src="https://user-images.githubusercontent.com/68154219/170829577-48980b55-4a64-4fba-9786-38ed96de0df6.png">
 </p>
 
+## Labwork using ABI function calls
+### Study New Algorithm For Sum 1 to N Using ASM
+
+In this lab we will pass two registers a0, a1 from Main C program to ASM and return the output in a0 register back to the Main C program
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170830186-ab84ce27-6e5a-4b7d-9a6b-ab72022919af.png">
+</p>
+
+Following is the algorithm for the program in ASM
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170830005-5fa913b7-2334-405d-8757-65ffb7070447.png">
+</p>
+
+On terminal open leafpad
+* Type Main C program with load as an extern function
+* Type assembly program for load function
+
+![image](https://user-images.githubusercontent.com/68154219/170831347-b12fa86f-0d0c-4525-980b-99c0ee479800.png)
+
+![image](https://user-images.githubusercontent.com/68154219/170831368-c5d3dbe9-ab4e-4136-b0f7-fd15bf6b995c.png)
+
+![image](https://user-images.githubusercontent.com/68154219/170831473-f21d1b0b-3619-4e0e-8a40-926f52e16a66.png)
 
