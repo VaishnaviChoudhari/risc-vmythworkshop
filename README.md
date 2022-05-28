@@ -381,3 +381,15 @@ The instruction set for addition and storing data back to memory is as shown in 
 
 * There are two source register for add command 
 * There is no destination register for sd command but there are two registers as source and data.
+
+### Concluding 32-registers And Their Respective ABI Names
+* The instruction ld, add, sd belongs to Base Integer Instructions RV64I 
+* The instructions such as add which operates only on registers are called as R-type instructions.
+* The instructions that operate on registers and immediate are called as I- type instructions.
+* The instructions that operate on source registers and immediate are called as S-type instructions.
+* All registers are of 5 bitswhich represents 32 registers.
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170829577-48980b55-4a64-4fba-9786-38ed96de0df6.png">
+</p>
+
+
