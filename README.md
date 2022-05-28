@@ -330,5 +330,32 @@ Since unsigned long long dataytpe has max size of 64 bits, Highest size of outpu
 <img src="https://user-images.githubusercontent.com/68154219/170823132-a929ca44-09be-48f3-a3c7-d1d81aa81bf6.png">
 </p>
 
+### Memory Allocation for Double Words
+
+* RISC V belongs to 'Little Endian'memory addressing system. LSB stored at 0th location of the register.
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170824092-2819ae17-35b9-4a88-975a-71b1c067b5bc.png">
+</p>
+
+For Example,
+* Assume that the array M is of 3 double word (data to be stored)
+* We want to store the content in a particular register, let's say register x8.
+* If we want to access the data from register x8, we need the first memmory address of the register.
+* x23 will store the base address of array M. and the pointer is incremented by 16 everytime to access next data stored.
+* **load double word (ld)** is the command to load the data into the register x8.
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170823620-da269916-9bb2-4d71-a535-26660aab50d7.png">
+</p>
+
+### Load, Add And Store Instructions With Example
+
+ **All the instructions in RISC V are of 32 bits.**
+* opcode - first 7 bits are used to store commands 
+* func3 - additional 3 bits along with opcode
+* rs1 - 5 bits used to store source register
+* rd- 5 bits used to store destination register
+* immediate - offset from base address of the register
+
 
 
