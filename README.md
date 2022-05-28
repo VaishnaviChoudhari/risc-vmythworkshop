@@ -353,8 +353,9 @@ For Example,
 * **load double word (ld)** is the command to load the data into the register x8.
 
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/68154219/170823620-da269916-9bb2-4d71-a535-26660aab50d7.png">
+<img src="https://user-images.githubusercontent.com/68154219/170826147-c9be50d9-90f0-46f0-a3a3-0b339770d289.png">
 </p>
+
 
  **All the instructions in RISC V are of 32 bits.**
 * opcode - first 7 bits are used to store commands 
@@ -364,7 +365,7 @@ For Example,
 * immediate - offset from base address of the register
 
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/68154219/170825328-54a08a21-2095-4709-b160-4d2e3ea74379.png">
+<img src="https://user-images.githubusercontent.com/68154219/170826093-5307b4d3-dc34-42d0-a6e9-ca1df48e7ff9.png">
 </p>
 
 * To store the data back into memory, **store double word sd** command is used.
