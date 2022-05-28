@@ -406,6 +406,7 @@ Following is the algorithm for the program in ASM
 <img src="https://user-images.githubusercontent.com/68154219/170830005-5fa913b7-2334-405d-8757-65ffb7070447.png">
 </p>
 
+### Review ASM Function Call
 On terminal open leafpad
 * Type Main C program with load as an extern function
 * Type assembly program for load function
