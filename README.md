@@ -46,7 +46,7 @@ A beginner level 5-day workshop on “RISC-V based MYTH” in which by end of th
     * [Introduction To Sequential Logic And Counter Lab](#Introduction-To-Sequential-Logic-And-Counter-Lab)
     * [Sequential Calculator Lab](#Sequential-Calculator-Lab)  
   * [Pipelined Logic](#Pipelined-Logic)
-    * [Pipelined Logic and Re-Timing](#[Pipelined-Logic-and-Re-Timing)
+    * [Pipelined Logic and Re-Timing](#Pipelined-Logic-and-Re-Timing)
     * [Pipeline Logic Advantages And Demo In Platform](#Pipeline-Logic-Advantages-And-Demo-In-Platform)
     * [Lab On Error Conditions Within Computation Pipeline](#Lab-On-Error-Conditions-Within-Computation-Pipeline)
     * [Lab On 2-Cycle Calculator ](#Lab-On-2-Cycle-Calculator)
