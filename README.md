@@ -587,7 +587,7 @@ Open Pythagorean example from Tutorial
 
 ## Pipelined Logic 
 
-### Pipelined Logic And Re-Timing
+### Pipelined Logic and Re-Timing
 
 * **Compute Pythagoras Theorem on hardware**
 <p align="center" width="100%">
