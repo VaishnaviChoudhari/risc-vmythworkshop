@@ -586,9 +586,10 @@ Open Pythagorean example from Tutorial
 </p>
 
 ## Pipelined Logic 
+
 ### Pipelined Logic And Re-Timing
 
-* **Compute Pythagoras Theorem on hardware
+* **Compute Pythagoras Theorem on hardware**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170844353-e7afc255-eb88-441c-ae26-a4699a085388.png">
 </p>
@@ -597,7 +598,7 @@ Open Pythagorean example from Tutorial
 <img src="https://user-images.githubusercontent.com/68154219/170844382-06acccb3-9a80-45b5-aaea-f82038d4553b.png">
 </p>
 
-* **TL-Verilog vs System Verilog
+* **TL-Verilog vs System Verilog**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170844460-05055a6c-4bf3-4959-82cb-333e0dc35771.png">
 </p>
