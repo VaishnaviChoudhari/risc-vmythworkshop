@@ -424,4 +424,51 @@ Int this section we will simulate the program with spike command for RISC V simu
 
 ![image](https://user-images.githubusercontent.com/68154219/170832690-810775ab-ca1f-466d-8514-5f4c6f5219d5.png)
 
+## Basic verification flow using iverilog
 ### Lab To Run C-Program On RISC-V CPU
+
+In this lab, we will load hex file of C program in Memory and we will read the memory through the RISCV CPU . The CPU willprocess the hex file and display the output.
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170833527-3522cd08-e4ee-4324-821a-7e8cebf1f5d0.png">
+</p>
+
+* In testbench file, following line loads hex file (firmware.hex) in RISC V CPU and generates bitstream file(firmware32.hex)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839545-c6cf683c-0ba7-467f-b3ec-afd17d19ad0e.png">
+</p>
+
+* rv32im.sh file converts the C program into hex file
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839608-232f678c-09d7-481a-8368-72f5c3f43259.png">
+</p>
+
+* ./rv32im.sh displays the output on the terminal
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839608-232f678c-09d7-481a-8368-72f5c3f43259.png">
+</p>
+
+* firmware.hex looks like as shown in the snippet below
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839721-49172654-433d-4c77-893e-5ad143d682fe.png">
+</p>
+
+* firmware32.hex file is the output bitsteam file which is as below
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839762-18121b6d-49b1-445f-aa19-bf72e53ed0dc.png">
+</p>
+
+On terminal,
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170839816-f7be93e5-b2f7-46c0-8bf1-bad2b6c10a8e.png">
+</p>
+
+
+
+
+
+
+
+
+
+
+
