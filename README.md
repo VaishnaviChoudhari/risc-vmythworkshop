@@ -645,6 +645,15 @@ It can be seen that the input 'a' and input 'b' are squared after third clock cy
 <img src="https://user-images.githubusercontent.com/68154219/170861999-8e0e91ed-9c20-4a95-9c2d-4b41d08af416.png">
 </p>
 
+**Lab: Pipeline**
+[Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0GZh1mk)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170864596-f8137f62-18dc-4b84-98fd-68be92b898d1.png">
+</p>
+
+### Lab On 2-Cycle Calculator
+
+**Lab: Counter and Calculator in Pipeline**
 
 
 
