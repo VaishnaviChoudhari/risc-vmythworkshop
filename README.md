@@ -581,6 +581,7 @@ Open Pythagorean example from Tutorial
 </p>
 
 ### Sequential Calculator Lab
+[Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0y8hrg4)
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170844256-0be20bb6-59ec-4567-bf84-b89f728bcc67.png">
 </p>
@@ -630,6 +631,14 @@ Without pipeline,
 </p>
 
 It can be seen that the input 'a' and input 'b' are squared after third clock cycle and output 'c' is also generated after 3 clock cycles.
+
+### Lab On Error Conditions Within Computation Pipeline
+
+* **Identifiers and Types**
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170861999-8e0e91ed-9c20-4a95-9c2d-4b41d08af416.png">
+</p>
 
 
 
