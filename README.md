@@ -525,7 +525,7 @@ Open Pythagorean example from Tutorial
 <img src="https://user-images.githubusercontent.com/68154219/170841711-e08a0d5f-f983-4e9d-bc29-93e253a30364.png">
 </p>
 
-**C. Arithmetic operators on vectors as binary numbers
+**C. Arithmetic operators on vectors as binary numbers**
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170841789-458c1892-3e59-49c3-8ff8-205c14bff58b.png">
 </p>
@@ -541,6 +541,7 @@ Open Pythagorean example from Tutorial
 </p>
 
 **D. Combinational Calculator**
+
 [Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0wjhG7D)
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170842548-6c41c075-c8ea-405e-88cb-9c305f4bd52a.png">
@@ -573,6 +574,8 @@ Open Pythagorean example from Tutorial
 </p>
 
 * **Fibonacci Series**
+
+[Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0Vmhxwn#)
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170843434-87f215e7-873f-4336-a075-5ce21edf2acd.png">
 </p>
