@@ -608,6 +608,31 @@ Open Pythagorean example from Tutorial
 <img src="https://user-images.githubusercontent.com/68154219/170844553-327d637d-59c8-46de-a1d5-e9bb4246c92e.png">
 </p>
 
+### Pipeline Logic Advantages And Demo In Platform
+
+* **High Frequency**
+When clock is fast, using pipelining we are able to run on high frequency.
+
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170859988-cb0bb3ee-7198-4c30-adb7-29cb1ce44ecb.png">
+</p>
+
+For example, Pythagoras Theorem with Pipeline
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170860434-1557ef57-7a48-4a29-a234-ab078b4c5dfb.png">
+</p>
+
+It can be seen that the input 'a' is squared after first clock cycle, input 'b' is squared after second clock cycle and output 'c' is generated after 3 clock cycles.
+
+Without pipeline,
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/68154219/170860582-aab65a8d-a5d0-46f7-a92b-e00766374827.png">
+</p>
+
+It can be seen that the input 'a' and input 'b' are squared after third clock cycle and output 'c' is also generated after 3 clock cycles.
+
+
+
 
 
 
