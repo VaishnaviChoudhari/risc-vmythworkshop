@@ -619,6 +619,7 @@ When clock is fast, using pipelining we are able to run on high frequency.
 </p>
 
 For example, Pythagoras Theorem with Pipeline
+[Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0wjhG7D)
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170860434-1557ef57-7a48-4a29-a234-ab078b4c5dfb.png">
 </p>
