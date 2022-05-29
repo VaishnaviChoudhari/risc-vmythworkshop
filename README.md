@@ -541,6 +541,7 @@ Open Pythagorean example from Tutorial
 </p>
 
 **D. Combinational Calculator**
+[Makerchip IDE](https://www.makerchip.com/sandbox/00Rf2hWvg/0wjhG7D)
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/68154219/170842548-6c41c075-c8ea-405e-88cb-9c305f4bd52a.png">
 </p>
